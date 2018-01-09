@@ -1,66 +1,84 @@
 const leftLinks = [
   {
     path: '/standards/formorder',
-    name: 'Form Order'
+    name: 'Forms Order',
+    icon: 'reorder',
+    mb: true
   },
   {
     path: '/standards/scope',
-    name: 'Project Scope'
+    name: 'Project Scope',
+    icon: 'fa-newspaper-o'
   },
   {
     path: '/standards/authorization',
-    name: 'Work Authorization'
+    name: 'Work Authorization',
+    icon: 'fa-pencil'
   },
   {
     path: '/standards/antimicrobial',
-    name: 'Anti-Microbial'
+    name: 'Anti-Microbial',
+    icon: 'fa-certificate'
   },
   {
     path: '/standards/responsibility',
-    name: 'Customer Responsibility'
+    name: 'Customer Responsibility',
+    icon: 'fa-hand-grab-o'
   },
   {
     path: '/standards/liability',
-    name: 'Release from Liability'
+    name: 'Release from Liability',
+    icon: 'fa-chain-broken'
   },
   {
     path: '/standards/stoppage',
-    name: 'Work Stoppage'
+    name: 'Work Stoppage',
+    icon: 'fa-hand-paper-o'
   },
   {
     path: '/standards/certificate',
-    name: 'Certificate of Completion'
+    name: 'Certificate of Completion',
+    icon: 'fa-trophy',
+    mb: true
   },
   {
     path: '/standards/areas',
-    name: 'Affected Areas'
+    name: 'Affected Areas',
+    icon: 'fa-bullseye'
   },
   {
     path: '/standards/crews',
-    name: 'Crews Teams'
+    name: 'Crews / Teams',
+    icon: 'fa-users'
   },
   {
     path: '/standards/structures',
-    name: 'Structures'
+    name: 'Structures',
+    icon: 'fa-cubes'
   },
   {
     path: '/standards/materials',
-    name: 'Materials'
+    name: 'Materials',
+    icon: 'fa-cogs'
   }
 ]
 
 const rightLinks = [
   {
     path: 'support',
-    name: 'Suggestion/Support'
+    name: 'Suggestions/Support',
+    icon: 'fa-ticket'
   },
   {
     path: 'calendar',
-    name: 'Calendar'
+    name: 'Calendar',
+    icon: 'fa-calendar-o'
   },
   {
     path: '/standards/createform',
-    name: 'Create Form'
+    name: 'Create Form',
+    icon: 'fa-file-text',
+    mt: true
   }
 ]
 

@@ -5,11 +5,14 @@
   			<v-select v-bind:items="years" label="Select Year" single-line bottom></v-select>
   			<v-select v-bind:items="status" label="Status" single-line bottom></v-select>
   		</v-flex>
-  		<v-flex sm8 class="text-center">
+  		<v-flex sm8 class="text-xs-center">
   			<img src="" alt="Company Logo">
   		</v-flex>
   		<v-flex sm2>
-  			<v-text-field label="Search"></v-text-field>
+  			<v-text-field 
+          label="Search" 
+          prepend-icon="fa-search"
+        ></v-text-field>
   		</v-flex>
   	</v-layout>
   	<v-layout row wrap class="text-center">
@@ -19,7 +22,7 @@
 				class="elevation-1"
 				>
 				<template slot="items" slot-scope="props">
-					<td>{{ props.item.name }}</td>
+					<td class="text-xs-center">{{ props.item.name }}</td>
 					<td class="text-xs-center">{{ props.item.address }}</td>
 					<td class="text-xs-center">{{ props.item.phone }}</td>
 					<td class="text-xs-center">{{ props.item.assigned }}</td>
@@ -71,7 +74,7 @@
             value: 'status'
           },
           {
-            text: 'Action',
+            text: 'Actions',
             align: 'center',
             sortField: null,
             value: 'action'

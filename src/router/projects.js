@@ -1,18 +1,21 @@
 const leftLinks = [
   {
     path: '/projects/new',
-    name: 'New Project'
+    name: 'New Project',
+    icon: 'fa-file'
   }
 ]
 
 const rightLinks = [
   {
     path: 'support',
-    name: 'Suggestion/Support'
+    name: 'Suggestion/Support',
+    icon: 'fa-ticket'
   },
   {
     path: 'calendar',
-    name: 'Calendar'
+    name: 'Calendar',
+    icon: 'fa-calendar-o'
   }
 ]
 

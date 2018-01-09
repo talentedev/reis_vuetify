@@ -1,7 +1,8 @@
 const leftLinks = [
   {
     path: '/forms',
-    name: 'Forms'
+    name: 'Forms',
+    mb: true
   },
   {
     path: '/forms/callreport',
@@ -20,31 +21,39 @@ const leftLinks = [
 const rightLinks = [
   {
     path: 'support',
-    name: 'Suggestion/Support'
+    name: 'Suggestion/Support',
+    icon: 'fa-ticket'
   },
   {
     path: 'calendar',
-    name: 'Calendar'
+    name: 'Calendar',
+    icon: 'fa-calendar-o'
   },
   {
     path: 'preview',
-    name: 'Preview'
+    name: 'Preview',
+    icon: 'fa-eye'
   },
   {
     path: 'email',
-    name: 'Email'
+    name: 'Email',
+    icon: 'fa-envelope-o'
   },
   {
     path: 'print',
-    name: 'Print'
+    name: 'Print',
+    icon: 'fa-print'
   },
   {
     path: 'save',
-    name: 'Save'
+    name: 'Save',
+    icon: 'fa-floppy-o'
   },
   {
     path: 'areas',
-    name: 'Affected Areas'
+    name: 'Affected Areas',
+    icon: 'fa-bullseye',
+    mt: true
   }
 ]
 

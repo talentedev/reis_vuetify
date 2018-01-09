@@ -31,13 +31,10 @@
 
 <style type="text/css">
   #app {
-    /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
+    font-family: 'PT Serif', serif;
     /*-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;*/
     /*color: #2c3e50;*/
-  }
-  .navigation-drawer {
-    max-width: 200px !important; /* sidebar width */
-  }
+  }  
 </style>

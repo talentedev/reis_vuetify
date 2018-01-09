@@ -1,15 +1,18 @@
 const leftLinks = [
   {
     path: '/settings/account',
-    name: 'Account'
+    name: 'Account',
+    icon: 'fa-user-circle-o'
   },
   {
     path: '/settings/company',
-    name: 'Company'
+    name: 'Company',
+    icon: 'fa-building'
   },
   {
     path: '/settings/users',
-    name: 'Users'
+    name: 'Users',
+    icon: 'fa-users'
   },
   // {
   //   path: '/settings/teams',
@@ -17,18 +20,21 @@ const leftLinks = [
   // },
   {
     path: '/settings/invoices',
-    name: 'Invoices'
+    name: 'Invoices',
+    icon: 'fa-paper-plane'
   }
 ]
 
 const rightLinks = [
   {
     path: 'support',
-    name: 'Suggestion/Support'
+    name: 'Suggestions/Support',
+    icon: 'fa-ticket'
   },
   {
     path: 'calendar',
-    name: 'Calendar'
+    name: 'Calendar',
+    icon: 'fa-calendar-o'
   }
 ]
 
@@ -80,7 +86,7 @@ const routes = (configRoute) => [
     name: 'Invoices',
     props: {title: 'Invoices'},
     meta: {
-      title: 'Manage Your Invoices',
+      title: 'Invoices',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks

@@ -1,11 +1,10 @@
 <template>
   <v-container>
-    <v-layout row justify-space-around>
+    <h1>{{ $route.meta.title }}</h1>
+    <v-layout row justify-space-around class="mt-3">
       <v-flex>
         <v-card>    
-          <v-card-title>
-            <span class="headline">{{ $route.meta.title }}</span>
-          </v-card-title>
+          <v-card-title></v-card-title>
           <v-card-text>
             <v-container>
               <v-data-table
@@ -14,12 +13,12 @@
               class="elevation-1"
               >
                 <template slot="items" slot-scope="props">
-                  <td></td>
+                  <td>{{ props.index + 1 }}</td>
                   <td class="text-xs-left">{{ props.item.name }}</td>
-                  <td class="text-xs-center">{{ props.item.email }}</td>
-                  <td class="text-xs-center">{{ props.item.type }}</td>
-                  <td class="text-xs-center">{{ props.item.status }}</td>
-                  <td class="text-xs-center">{{ props.item.action }}</td>
+                  <td class="text-xs-left">{{ props.item.email }}</td>
+                  <td class="text-xs-left">{{ props.item.type }}</td>
+                  <td class="text-xs-left">{{ props.item.status }}</td>
+                  <td class="text-xs-left">{{ props.item.action }}</td>
                 </template>
               </v-data-table>
               <h3 class="mt-5">Create new account for your company employee</h3>
@@ -35,7 +34,7 @@
                     <v-select v-bind:items="type" label="Account Type" single-line bottom></v-select>                  
                   </v-flex>         
                 </v-layout>
-                <v-btn color="blue">Create</v-btn>
+                <v-flex class="text-xs-center"><v-btn>Create</v-btn></v-flex>                
               </v-form>              
             </v-container>
           </v-card-text>
@@ -51,8 +50,6 @@
   // import DeleteTeamModal from './modals/DeleteTeamModal'
 
   export default {
-    name: 'Teams',
-    userModal: false,
     data () {
       return {
         type: ['Admin', 'User'],
@@ -71,25 +68,25 @@
           },
           {
             text: 'Email',
-            align: 'center',
+            align: 'left',
             sortField: null,
             value: 'email'
           },
           {
             text: 'Type',
-            align: 'center',
+            align: 'left',
             sortField: null,
             value: 'type'
           },
           {
             text: 'Status',
-            align: 'center',
+            align: 'left',
             sortField: null,
             value: 'status'
           },
           {
             text: 'Actions',
-            align: 'center',
+            align: 'left',
             sortField: null,
             value: 'action'
           }
