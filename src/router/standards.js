@@ -88,7 +88,7 @@ const routes = (configRoute) => [
     name: 'Formorder',
     props: {title: 'Formorder'},
     meta: {
-      title: 'Formorder',
+      title: 'Set order of the forms',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
@@ -102,7 +102,7 @@ const routes = (configRoute) => [
     name: 'Scope',
     props: {title: 'Scope'},
     meta: {
-      title: '',
+      title: 'Project Scope',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks

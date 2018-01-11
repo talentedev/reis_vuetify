@@ -10,8 +10,9 @@
   		</v-flex>
   		<v-flex sm2>
   			<v-text-field 
-          label="Search" 
-          prepend-icon="fa-search"
+          label="Search..."
+          single-line 
+          append-icon="fa-search"
         ></v-text-field>
   		</v-flex>
   	</v-layout>

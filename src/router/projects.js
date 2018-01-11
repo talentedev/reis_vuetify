@@ -39,7 +39,7 @@ const routes = (configRoute) => [
     name: 'NewProject',
     props: {title: 'NewProject'},
     meta: {
-      title: 'Projects',
+      title: 'Select Forms for this project',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
