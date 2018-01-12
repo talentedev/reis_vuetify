@@ -16,6 +16,7 @@
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
+    "vue2-editor": "^2.3.11",
     "vuedraggable": "^2.15.0",
     "vuetify": "^0.17.3"
   },

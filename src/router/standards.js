@@ -102,7 +102,7 @@ const routes = (configRoute) => [
     name: 'Scope',
     props: {title: 'Scope'},
     meta: {
-      title: 'Project Scope',
+      title: 'Standards',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
@@ -116,7 +116,7 @@ const routes = (configRoute) => [
     name: 'Authorization',
     props: {title: 'Authorization'},
     meta: {
-      title: '',
+      title: 'Standards',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
