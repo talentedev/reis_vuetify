@@ -43,7 +43,9 @@
 										label="Footer text. (Select if you wish to have a footer with text)"
 										v-model="addFooter"
 									></v-checkbox>
-									<vue-editor id="footerEditor" v-model="footerText" class="mb-3"></vue-editor>							
+									<transition name="fade">
+										<vue-editor id="footerEditor" v-model="footerText" v-if="addFooter" class="mb-3"></vue-editor>							
+									</transition>	
 								</v-flex>	
 							</v-layout>		
 							<v-layout>
