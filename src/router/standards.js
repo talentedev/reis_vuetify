@@ -130,7 +130,7 @@ const routes = (configRoute) => [
     name: 'Antimicrobial',
     props: {title: 'antimicrobial'},
     meta: {
-      title: '',
+      title: 'Standards',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
