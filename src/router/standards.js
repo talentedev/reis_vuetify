@@ -158,7 +158,7 @@ const routes = (configRoute) => [
     name: 'Liability',
     props: {title: 'Liability'},
     meta: {
-      title: '',
+      title: 'Standards',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
