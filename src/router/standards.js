@@ -172,7 +172,7 @@ const routes = (configRoute) => [
     name: 'Stoppage',
     props: {title: 'Stoppage'},
     meta: {
-      title: '',
+      title: 'Standards',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
@@ -186,7 +186,7 @@ const routes = (configRoute) => [
     name: 'Certificate',
     props: {title: 'Certificate'},
     meta: {
-      title: '',
+      title: 'Standards',
       roles: ['customer'],
       leftLinks: leftLinks,
       rightLinks: rightLinks
